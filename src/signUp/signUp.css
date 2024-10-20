@@ -1,0 +1,310 @@
+#signUp-page-container{
+    background: #1b1b1b;
+}
+
+.signUp-container{
+    display: flex;
+    justify-content: flex-start;
+}
+
+#text-image-container{
+    width: 50%;
+    height: 100%;
+}
+
+#welcome-message{
+    display: flex;
+    flex-direction: row;
+    margin-top: 80px;
+    width: 100%;
+    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 40px;
+    padding-right: 20px;
+    animation: fadeIn 2s ease-in forwards;
+}
+
+#welcome{
+    font-size: 50px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    align-self: center;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+#logo{
+    width: 115px;
+    height: 115px;  
+    margin-left: auto;
+}
+
+@keyframes slideIn{
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+#welcome-text-container{
+    width: 100%;
+    height: fit-content;
+    padding-bottom: 60px;
+    margin-bottom: 200px;
+    border-bottom: 1px solid whitesmoke;
+    border: 1px solid whitesmoke;
+    border-left: none;
+    animation: slideIn 1.5s ease-out;
+}
+
+.bold-titles{
+    font-weight: lighter;
+    display: inline-block;
+    font-size: 20px;
+    margin-bottom: 8px;
+    margin-top: 6px;
+    text-decoration: underline;
+}
+
+.welcome-titles{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: fit-content;
+    width: fit-content;
+    margin-left: 55px;
+    border-right: 2px solid whitesmoke;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 30px;
+}
+
+.left-page-logos{
+    font-size: 35px;
+    color: white;
+    height: fit-content;
+}
+
+
+.text-container-title{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 0px;
+    color: whitesmoke;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    padding: 0px;
+    align-self: center;
+}
+
+#title-2{
+    margin-top: 40px;
+}
+
+.text-container-text{
+    font-size: 17px;
+    color: gainsboro;
+    width: fit-content;
+    height: fit-content;
+    margin-left: 55px;
+    margin-bottom: 0px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    padding: 0px;
+    
+}
+
+
+#space{
+    width: 9%;
+}
+
+#right-side-page{
+    display: flex;
+    flex-direction: column;
+    width: 41%;
+}
+
+#rectangle-sign-up{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 8px;
+    border: 3px solid gainsboro;
+    width: 500px;
+    height: fit-content;
+    padding: 40px;
+    margin-top: 80px;
+}
+
+
+#title{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    border: none;
+}
+
+.sign-up-button{
+
+    align-self: center;
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+.log-in-button{
+    align-self: center;
+    text-decoration: none;
+    height: fit-content;
+    width: fit-content;
+}
+
+
+
+.text-switch{
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-weight: bold;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    margin-bottom: 0px;
+    align-self: center;
+    border: 2px solid black;
+}
+
+#text-sign-up{
+
+    color: #000;
+    background-color: white;
+}
+
+#text-login{
+
+    color: white;
+    background-color: #000;
+
+}
+
+#corner-logo{
+    margin-left: auto;
+    width: 80px;
+    height: 80px;
+    margin-top: 0px;
+    margin-right: 0px;
+}
+
+#line{
+    align-self: center;
+    width: 100%;
+    height: 10px;
+    margin-bottom: 30px;
+}
+
+input:focus{
+    border: none;
+    outline: none;
+}
+
+.envelope{
+
+    font-size: 22px;
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+.inputBoxes-container{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-bottom: 2px solid rgb(65, 65, 65);
+    margin-bottom: 60px;
+}
+
+.inputBoxes{
+    height: 40px;
+    width: 90%;
+    border: none;
+    outline: none;
+    border: 1px solid yellow;
+}
+
+.eye{
+    font-size: 22px;
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+}
+
+#bt-login{
+    align-self: center;
+    background-color: #1b1b1b;
+    width: 100%;
+    height: 38px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: white;
+    border: 2px solid gainsboro;
+    margin-bottom: 30px;
+}
+
+#section-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.p-text{
+    font-size: 18px;
+    width: fit-content;
+    height: fit-content;
+    font-family: 'Georgia','Helvetica', 'Times New Roman', Times, serif;
+}
+
+#myCheckbox{
+margin-top: 3px;
+}
+
+#remember{
+    margin: 0px;
+    margin-left: 5px;
+}
+
+#forgot-link{
+    
+    margin-left: auto;
+    margin-bottom: 0;
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#section-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+#item-2{
+    color: #000;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+#password-Criteria{
+    border: 2px solid salmon;
+    width: 300px;
+    height: 500px;
+    position: absolute;
+}
+
+
+
+
+

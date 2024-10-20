@@ -1,0 +1,50 @@
+#container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    border: 2px solid black;
+    width: 100%;
+    height: 100vh;
+
+}
+
+#red-square{
+    background-color: red;
+    border: 2px solid black;
+    width: 150px;
+    height: 150px;
+    margin-right: auto;
+
+}
+
+.button{
+    background-color: antiquewhite;
+    color: black;
+    border: 2px solid beige;
+    margin: 10px;
+    transition: ease-in 1s;
+    margin-right: auto;
+}
+
+.button:hover{
+
+    transform: scale(1.1);
+
+}
+
+#text{
+    margin-right: auto;
+    border: 2px solid greenyellow;
+}
+
+#fruitsButton{
+    background-color: palegreen;
+    color: pink;
+}
+
+#fruits{
+    border: 2px solid pink;
+    margin-right: auto;
+}

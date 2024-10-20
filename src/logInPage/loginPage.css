@@ -1,0 +1,124 @@
+.login-container{
+    background-color: #1b1b1b;
+}
+
+#login-container-child{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+}
+
+#rectangle-log-in{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 80px;
+  border-radius: 8px;
+  border: 3px solid gainsboro;
+  width: 500px;
+  height: 600px;
+  padding: 40px;
+  justify-self: flex-end;
+ 
+}
+
+#showForgotPasswordMode{
+
+    position: fixed;
+    border: 4px solid whitesmoke;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    background-color: white;
+    top: 30%;
+    width: 800px;
+    height: 300px;
+    margin: 0px;
+    z-index: 40;
+
+}
+
+#forgot-first-row{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#forgot-password-email-row{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+
+}
+
+#forgot-password-line{
+    border: 1px solid rgb(33, 37, 41);
+    width: 69%;
+    margin-left: 200px;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInDim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOutDim {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.fade-in-forgot-password {
+  animation: fadeIn 1s ease-in forwards;
+}
+
+.fade-out-forgot-password {
+  animation: fadeOut 1s ease-in forwards;
+}
+
+.fade-in-dimmed-overlay {
+  animation: fadeInDim 1s ease-in forwards;
+}
+
+.fade-out-dimmed-overlay {
+  animation: fadeOutDim 1s ease-in forwards;
+}
+
+.dimmed-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+  opacity: 0;
+}
