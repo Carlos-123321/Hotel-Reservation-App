@@ -1,6 +1,6 @@
 import useToggleInformation from '../../customHooks/contactInfo/useToggleInformation';
 import ContactElement from './ContactElement';
-import "./Navbar.css";
+import navbarStyles from './Navbar.module.css';
 
 function Contact() {
 
@@ -9,7 +9,7 @@ function Contact() {
   return(
     <>
 
-      <a id="contact" className="hover-effect-navbar" onClick={toggleInformation}>Contact Us</a>
+      <a className={`${navbarStyles['contact']} ${navbarStyles['hover-effect-navbar']}`} onClick={toggleInformation}>Contact Us</a>
     
       {showInformation && (
       

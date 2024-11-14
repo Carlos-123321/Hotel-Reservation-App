@@ -42,7 +42,6 @@ function SignUpPage () {
 
             <div id="welcome-message">
             
-            <img src="/NN-Black-Logo.jpg" alt="Noble Nests Logo" id="logo"/>
             <p id="welcome">Welcome, Esteemed Guest</p>
 
             </div> 

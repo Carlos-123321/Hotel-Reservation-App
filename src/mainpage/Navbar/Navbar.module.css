@@ -1,21 +1,19 @@
-#navbar-margin{
+.navbar-margin{
   width: 100%;
   height: 90px;
 }
 
-#navbar-container {
+.navbar-container {
   top: 0px;
   position: fixed;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-  background-color: #A68E6C;
+  background-color: #374255;
   background-size: 250% 250%;
   animation: moveGradient 5s linear infinite;
-  border-bottom: 4px solid whitesmoke;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-bottom: 2px solid #1f2227;
   width: 100%;
   height: 90px;
   z-index: 1;
@@ -30,11 +28,10 @@
   }
 }
 
-#logo-video{
+.logo-video{
   height: 100%;
   width: 100%;
   mix-blend-mode: multiply;
-  border: 1px solid red;
 }
 
 .unstyled-link{
@@ -43,18 +40,17 @@
   height: 100%;
   margin-right: 3%;
   margin-left: 3%;
-  border: 1px solid blue;
 }
 
-#logo-text {
-  color: #E6E6E6;  
+.logo-text {
+  color: #f7f7f7;  
   font-size: 3vw;
   height: fit-content;
   font-family: 'Helvetica', 'Times New Roman', Times, serif;
   letter-spacing: 0.35em;
-  margin-top: 2%;  
-  border: 1px solid yellow;
-
+  margin-top: 2%; 
+  border: 1px solid red; 
+  align-self: center;
 }
 
 .searchBar{
@@ -65,12 +61,11 @@
   align-self: end;
   margin-bottom: 20px;
   width: fit-content;
-  border: 1px solid red;
 }
 
-#contact {
+.contact {
   font-family: 'Georgia','Helvetica', 'Times New Roman', Times, serif;
-  color: #E6E6E6;
+  color: #f7f7f7;
   text-decoration: none;
   transition: background-color 0.3s ease;
   height: fit-content;
@@ -88,7 +83,7 @@
 
 .link-favourites {
   font-size: 22px;
-  color: #E6E6E6;
+  color: #f7f7f7;
   align-items: center;
   align-self: end;
   margin-left: 15px;
@@ -100,7 +95,7 @@
 .link-cart {
 
   font-size: 23px;
-  color: #E6E6E6;
+  color: #f7f7f7;
   align-items: center;
   align-self: end;
   margin-left: 15px;
@@ -113,7 +108,7 @@
 
 .link-profile {
   font-size: 25px;
-  color: #E6E6E6;
+  color: #f7f7f7;
   align-items: center;
   align-self: end;
   margin-left: 15px;
@@ -123,22 +118,25 @@
 }
 
 /* Contact Us element*/
-#information{
+.information{
   padding-left: 150px;
   padding-right: 150px;
-  padding-top: 80px;
+  padding-top: 50px;
   position: fixed;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   top: 0;
   right: 0;
-  background-color: white;
-  border: 3px solid rgb(236, 234, 234);
+  background-color: #3B444F;
+  border: 2px solid rgb(236, 234, 234);
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
   width: 50%;
   height: 100%;
   z-index: 100;
   overflow: hidden;
+  color: rgb(207, 201, 201);
 }
 
 @keyframes slideInformation {
@@ -159,7 +157,7 @@
   }
 }
 
-.bi-x{
+.custom-x-icon{
   margin-left: auto;
   font-size: 35px;
   width: fit-content;

@@ -1,13 +1,14 @@
 import Navbar from "./Navbar/Navbar";
 import Cards from "./Card/Cards";
 import Footer from "./Footer/Footer";
+import mainpageStyles from './mainpage.module.css';
 
 function Mainpage () {
 
     return(
     
     <>
-    <div id="mainpage" style={{backgroundColor: "rgb(56, 56, 56)"}}>
+    <div className={mainpageStyles.mainpage}>
     <Navbar/>
     <Cards/>
     <Cards/>

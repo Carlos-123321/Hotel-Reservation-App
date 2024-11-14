@@ -1,8 +1,11 @@
 #footer-container{
     width: 100%;
     height: fit-content;
-    border-top: 4px solid whitesmoke;
-    background-color: white;
+    border-top: 2px solid whitesmoke;
+    background-color: #374255;
+    color: white;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
 }
 
 #first-section{
@@ -101,6 +104,7 @@
     align-self: center;
     width: 115px;
     height: 115px; 
+    mix-blend-mode: multiply;
 }
 
 #faq-section {

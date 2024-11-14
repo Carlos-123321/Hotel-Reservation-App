@@ -12,7 +12,6 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Mainpage/>} />
-
         <Route path="/card-details/:id" element={<CardDetails/>} />
         <Route path="/favourites" element={<FavouritesPage/>} />
         <Route path="/cart" element={<CartPage/>} />
